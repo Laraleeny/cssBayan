@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rgb(189, 139, 236);
+    color: #000000;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.accordion {
+    max-width: 400px;
+    box-shadow: 0 0 12px 4px rgba(40, 2, 63, 0.4);
+}
