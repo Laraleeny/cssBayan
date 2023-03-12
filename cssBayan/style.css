@@ -5,11 +5,27 @@
 body {
     margin: 0 auto;
     min-height: 100vh;
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 400;
+    font-family: "Book Antiqua", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
     background-color: rgb(189, 139, 236);
     color: #000000;
+}
+
+img {
+    width: 100%;
+}
+
+summary {
+    display: block;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+span {
+    padding-left: 80px;
 }
 
 .wrapper {
@@ -21,6 +37,19 @@ body {
 }
 
 .accordion {
-    max-width: 400px;
-    box-shadow: 0 0 12px 4px rgba(40, 2, 63, 0.4);
+    max-width: 20em;
+    box-shadow: 0 0 10px 10px rgba(40, 2, 63, 0.6);
+    background-color: rgb(150, 146, 153);
+}
+
+.memes {
+    max-width: 20em;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.title {
+    padding: 0.5em 0;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(122, 45, 122);
 }
